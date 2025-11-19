@@ -1,6 +1,3 @@
-
-## 🐍 **FILE 2: aegis_hunt_agent.py**
-```python
 import time
 import random
 from datetime import datetime
