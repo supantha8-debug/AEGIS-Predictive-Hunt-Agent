@@ -1,13 +1,49 @@
-# 🚀 AEGIS Predictive Hunt Agent
+# 🔐 SECURITY & CREDENTIALS
+.env
+.env.local
+.env.production
+config/credentials*.yml
+config/secrets*.json
+config/falcon_config.json
+config/crowdstrike_credentials.json
+*.key
+*.pem
 
-> **The CrowdStrike Hunt Agent Killer - Predictive Threat Hunting with 6-12 Month Early Warning**
+# 🔍 HUNT DATA & RESULTS
+hunt_results/
+detections/
+predictions/
+output/
+exports/
+logs/
+*.log
+*.db
+*.sqlite
+hunt_database/
 
-## ⚡ Features
-- ✅ 6-12 month early warning for APT campaigns
-- ✅ Autonomous 24/7 monitoring
-- ✅ 80%+ prediction confidence  
-- ✅ Zero cost vs CrowdStrike's $2M/year
+# 📦 PYTHON
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
 
-## 🚀 Quick Start
-```bash
-python aegis_hunt_agent.py
+# 🖥️ OS & EDITOR
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# 📁 PROJECT SPECIFIC
+models/trained/
+cache/
+temp/
+tmp/
+.ipynb_checkpoints
